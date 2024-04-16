@@ -1,0 +1,252 @@
+body {
+  font-family: arial, sans-serif;
+}
+
+nav {
+  display: flex;
+  justify-content: end;
+}
+
+.connexion {
+  background: #276fd4;
+  border: none;
+  color: white;
+  font-family: Google Sans, Roboto, Helvetica, Arial, sans-serif;
+  font-weight: 500;
+  font-size: 14px;
+  letter-spacing: 0.25px;
+  line-height: 16px;
+  margin-left: 10px;
+  margin-right: 8px;
+  min-width: 96px;
+  padding: 9px 23px;
+  text-align: center;
+  vertical-align: middle;
+  border-radius: 4px;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+}
+.connexion:hover {
+  background: #1c5fba;
+}
+.app {
+  padding: 4px;
+}
+
+.gmail,
+.image {
+  font-family: arial, sans-serif;
+  line-height: normal;
+  display: inline-block;
+  padding-left: 15px;
+  margin-top: 8px;
+  font-size: 12px;
+  vertical-align: middle;
+  color: rgba(0, 0, 0, 0.87);
+  text-decoration: none;
+}
+
+main {
+  display: flex;
+  flex-direction: column;
+  height: 70vh;
+  align-items: center;
+  justify-content: center;
+}
+.search {
+  display: flex;
+  z-index: 3;
+  position: relative;
+  min-height: 44px;
+  background: #fff;
+  border: 1px solid #dfe1e5;
+  box-shadow: none;
+  border-radius: 24px;
+  margin: 0 auto;
+  width: 638px;
+  width: auto;
+  max-width: 584px;
+}
+
+.item {
+  display: flex;
+  flex: 0 0 auto;
+  align-items: stretch;
+  flex-direction: row;
+  height: 44px;
+}
+.icon-search {
+  display: flex;
+  align-items: center;
+  padding-right: 13px;
+  padding-left: 14px;
+  height: 46px;
+}
+.recherche {
+  margin-top: 3px;
+  color: #9aa0a6;
+}
+
+.vocal {
+  flex: 1 0 auto;
+  display: flex;
+  cursor: pointer;
+  align-items: center;
+  border: 0;
+  background: transparent;
+  outline: none;
+  padding: 0 8px;
+  width: 24px;
+  line-height: 44px;
+}
+
+.photo {
+  flex: 1 0 auto;
+  display: flex;
+  cursor: pointer;
+  align-items: center;
+  border: 0;
+  background: transparent;
+  outline: none;
+  padding: 0 8px;
+  width: 24px;
+  line-height: 44px;
+}
+
+.container {
+  flex: 1;
+  display: flex;
+  padding: 0 8px 0 0;
+  display: flex;
+  align-items: center;
+  padding-right: 13px;
+  padding-left: 14px;
+  height: 46px;
+  justify-content: space-between;
+}
+.image-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  min-height: 92px;
+  height: calc(100% - 560px);
+  max-height: 290px;
+  margin-bottom: 67px;
+}
+.image-c {
+  max-height: 92px;
+  position: relative;
+  height: 100%;
+  margin-top: auto;
+}
+.img {
+  max-height: 100%;
+  max-width: 100%;
+  object-fit: contain;
+  object-position: center bottom;
+  width: auto;
+}
+
+textarea {
+  font-family: arial, sans-serif;
+  line-height: 22px;
+  border-bottom: 8px solid transparent;
+  padding-top: 11px;
+  overflow-x: hidden;
+  resize: none;
+  background-color: transparent;
+  border: none;
+  border-bottom-width: medium;
+  border-bottom-style: none;
+  border-bottom-color: currentcolor;
+  margin: 0;
+  padding: 0;
+  padding-top: 0px;
+  color: rgba(0, 0, 0, 0.87);
+  word-wrap: break-word;
+  outline: none;
+  display: flex;
+  height: 30px;
+}
+
+.btn {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px 58px;
+}
+.btn > button {
+  background-color: #f8f9fa;
+  border: 1px solid #f8f9fa;
+  border-radius: 4px;
+  color: #3c4043;
+  font-family: arial, sans-serif;
+  font-size: 14px;
+  margin: 11px 4px;
+  padding: 0 16px;
+  line-height: 27px;
+  height: 36px;
+  min-width: 54px;
+  text-align: center;
+  cursor: pointer;
+}
+
+.lg {
+  color: var(--bbQxAb);
+  display: flex;
+  line-height: 28px;
+  font-size: small;
+  font-size: 14px;
+  color: #3c4043;
+  font-family: arial, sans-serif;
+  justify-content: center;
+}
+
+.footer-container {
+  background: #f2f2f2;
+  flex-shrink: 0;
+  box-sizing: border-box;
+  width: 100%;
+  height: 10dvh;
+}
+
+.pays {
+  padding: 15px 30px;
+  border-bottom: 1px solid var(--gS5jXb);
+  font-size: 15px;
+  color: var(--YLNNHc);
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
+.footer {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
+.f-1,
+.f-2 {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
+footer {
+  width: 100%;
+  height: 10dvh;
+  box-sizing: border-box;
+  flex-shrink: 0;
+  margin-bottom: -405px;
+  margin-top: 106px;
+}
+
+.span {
+  width: 100%;
+  border: #3c4043 1px solid;
+}
+
+.my-link {
+  margin-left: 10px;
+}
